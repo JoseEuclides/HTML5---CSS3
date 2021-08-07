@@ -1,18 +1,35 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Animações</title>
+/****** Animaçoes ***/
+@keyframes animacao-caixa{
+	from{/*Estado inicial*/
+		background: red;
+		border-radius: 0px;
+		top: 0;
+		left: 0;
+	
+	}
+	to{/*Estado final*/
+		background: yellow;
+		border-radius: 300px;
+		top: 200px;
+		left: 200px;
+	}
+		
+	
+}
 
-		<link rel="stylesheet" type="text/css" href="CSS/Normalize.css">
+#caixa{
+	width: 300px;
+	height: 300px;
+	background: red;
+	position: relative;
+	/*
+	animation-name: animacao-caixa;
+	animation-duration: 5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;*/
 
-		<link rel="stylesheet" type="text/css" href="CSS/Sombras-Estilos.css">
-	</head>
-	<body>
-		<div id="caixa">
-			<h1>Titulo da caixa</h1>
-			<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer toke a type specimen book. It has survived not only five centuries, but also the </p>
-		</div>
+	animation: animacao-caixa 5s 3s 2 alternate;
+}
 
-	</body>
-</html>
+
