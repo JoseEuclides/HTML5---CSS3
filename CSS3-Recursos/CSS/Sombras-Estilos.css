@@ -1,0 +1,14 @@
+#caixa{
+	width: 300px;
+	height: 300px;
+	background: #009670;
+	box-shadow: 20px 20px 6px black;
+}
+
+#caixa h1{
+	color: white;
+	/*Sombreamento
+	text-shadow: 10px 10px #CCC;*/
+	/*rgba da opacidade para sombra*/
+	text-shadow: 20px 20px 3px rgba(0, 0, 0, 0.6);
+}
